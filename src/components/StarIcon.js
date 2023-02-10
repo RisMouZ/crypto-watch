@@ -10,7 +10,7 @@ const StarIcon = ({ coinId }) => {
         setLike(true);
       }
     }
-  });
+  }, [coinId]);
 
   const idChecker = (id) => {
     let favList = null;
